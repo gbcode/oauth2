@@ -1,0 +1,13 @@
+{
+  "name" : "oauth2",
+  "require" : {
+    "monolog/monolog" : "1.17.2"
+  },
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ],
+  "autoload" : {
+  	"psr-4" : {"ctl\\": "lib/"}
+  }
+}
